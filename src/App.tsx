@@ -1,11 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import {DateSelector} from "./components/DateSelector";
+import DateSelector from "./components/DateSelector";
+import moment from "moment";
 
+const handleDateChange=()=>{
+
+}
 const App = () => {
   return (
-    <DateSelector/>
+    <DateSelector date={moment(new Date())} handleDateChange={handleDateChange}/>
   );
 }
 
