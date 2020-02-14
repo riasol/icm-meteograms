@@ -6,4 +6,4 @@ export default {
     component: Meteogram,
 };
 
-export const Default = () => <Meteogram date={'2020020106'} col={241} row={458}></Meteogram>;
+export const View = () => <Meteogram date={'2020021012' } col={241} row={458}></Meteogram>;

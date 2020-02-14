@@ -9,6 +9,7 @@
     "@types/jest": "^24.0.0",
     "@types/moment": "^2.13.0",
     "@types/node": "^12.0.0",
+    "@types/ol": "^6.1.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "antd": "^3.26.7",
@@ -16,6 +17,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.1",
+    "rxjs": "^6.5.4",
     "typescript": "~3.7.2"
   },
   "devDependencies": {
@@ -24,14 +26,15 @@
     "@storybook/addons": "^5.3.9",
     "@storybook/preset-create-react-app": "^1.5.2",
     "@storybook/react": "^5.3.9",
-    "awesome-typescript-loader": "^5.2.1"
+    "awesome-typescript-loader": "^5.2.1",
+    "react-openlayers": "file:/./tmp/react-openlayers/react-openlayers-0.2.2.tgz"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9009 -s public",
+    "storybook": "start-storybook -p 9010 -s public",
     "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
