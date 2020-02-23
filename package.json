@@ -29,8 +29,7 @@
     "@storybook/addons": "^5.3.9",
     "@storybook/preset-create-react-app": "^1.5.2",
     "@storybook/react": "^5.3.9",
-    "awesome-typescript-loader": "^5.2.1",
-    "react-openlayers": "file:/./tmp/react-openlayers/react-openlayers-0.2.2.tgz"
+    "awesome-typescript-loader": "^5.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
