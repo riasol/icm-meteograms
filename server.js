@@ -16,4 +16,4 @@ http.createServer(function (request, response) {
     } else {
         response.writeHead(400)
     }
-}).listen(80)
+}).listen(process.env.PORT || 80)
